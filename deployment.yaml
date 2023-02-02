@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: spring-boot-k8s
-          image: 986006437548.dkr.ecr.us-east-1.amazonaws.com/springboot-k8s-yaml-new:latest   # Image that will be used to containers in the cluster
+          image: 98xxxxxxxxxx.dkr.ecr.us-east-1.amazonaws.com/springboot-k8s-yaml-new:latest   # Image that will be used to containers in the cluster
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
 ---
